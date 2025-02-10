@@ -2,7 +2,7 @@
 
 $factory->define(App\Invitation::class, function (Faker\Generator $faker) {
     return [
-        "event_id" => factory('App\Event')->create(),
+        "event_id" => factory(\App\Event::class)->create(),
         "email" => $faker->safeEmail,
         "sent_at" => $faker->date("Y-m-d H:i:s", $max = 'now'),
         "accepted_at" => $faker->date("Y-m-d H:i:s", $max = 'now'),
