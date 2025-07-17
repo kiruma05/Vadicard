@@ -1,14 +1,15 @@
-# QuickInvitations: Laravel 9 based invitation system
+# QuickInvitations — Laravel 9 Based Invitation System
 
+A simple Laravel 9 application for creating and managing event invitations.
 
 ![QuickInvitations screenshot](https://laraveldaily.com/wp-content/uploads/2018/11/quickinvitations-demo.png)
 
-## How to use
+---
 
-- Clone the repository with __git clone__
-- Copy __.env.example__ file to __.env__ and edit database credentials there
-- Run __composer install__
-- Run __php artisan key:generate__
-- Run __php artisan migrate --seed__ (it has some seeded data for your testing)
-- Now you can login as admin: launch the main URL and login with default credentials __admin@admin.com__ - __password__
-- That's it - modify/expand code as you want, add your events and send invitations!
+## Features
+
+- User authentication
+- Admin panel to manage events and invitations
+- Pre-seeded sample data for quick testing
+- Email-based invitation workflow (customizable)
+
